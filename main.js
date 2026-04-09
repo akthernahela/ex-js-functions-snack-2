@@ -25,4 +25,7 @@ console.log(somma(10, 20));
 //Snack 2
 //Crea una arrow function che calcola il quadrato di un numero.
 
+const quadrato = (number) => number * number;
+console.log(quadrato(3));
+
 //Definisci una funzione chiamata quadrato che accetta un numero e restituisce il suo quadrato in una sola riga.
