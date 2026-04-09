@@ -74,4 +74,18 @@ stampaOgniSecondo('Dai che non è la fine del mondo !');
 
 //Snack 6
 //Crea un contatore automatico con setInterval
+
+function creaContatoreAutomatico(intervallo) {
+    let contatore = 0;
+    return function () {
+        setInterval(() => {
+            contatore++;
+            console.log(contatore);
+        }, intervallo);
+    };
+}
+const avvia = creaContatoreAutomatico(1000);
+const stop = avvia();
+stop();
+
 //Definisci una funzione creaContatoreAutomatico che accetta un intervallo di tempo e restituisce una funzione che avvia un setInterval, incrementando un contatore e stampandolo.
