@@ -58,7 +58,7 @@ creaTimer();
 
 //Snack 5
 //Crea una funzione stampaOgniSecondo con setInterval.
-
+/*
 function stampaOgniSecondo(messaggio) {
     const print = setInterval(() => {
         console.log(messaggio);
@@ -68,4 +68,10 @@ function stampaOgniSecondo(messaggio) {
     }, 5000);
 }
 stampaOgniSecondo('Dai che non è la fine del mondo !');
+*/
 //Definisci una funzione che accetta un messaggio e lo stampa ogni secondo.
+
+
+//Snack 6
+//Crea un contatore automatico con setInterval
+//Definisci una funzione creaContatoreAutomatico che accetta un intervallo di tempo e restituisce una funzione che avvia un setInterval, incrementando un contatore e stampandolo.
