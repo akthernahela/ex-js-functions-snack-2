@@ -4,7 +4,8 @@
 function somma(number1, number2) {
     return number1 + number2;
 }
-
+let risultato = somma(10, 20);
+console.log(risultato);
 
 //Crea una funzione dichiarativa chiamata somma che accetta due numeri e restituisce la loro somma.
 
