@@ -45,4 +45,11 @@ console.log(eseguiOperazione(10, 8, sottrazione));
 
 //Snack 4
 //Crea un generatore di funzioni creaTimer
+
+function creaTimer() {
+    setTimeout(() => {
+        console.log("Tempo scaduto !");
+    }, 3000);
+}
+creaTimer();
 //Scrivi una funzione creaTimer che accetta un tempo(in ms) e restituisce una nuova funzione che avvia un setTimeout per stampare "Tempo scaduto!".
