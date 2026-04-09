@@ -93,4 +93,16 @@ stop();
 
 //Snack 7
 //Crea una funzione che ferma un timer dopo un certo tempo
+
+function eseguiEferma(messaggio, inizio, fine) {
+    const print = setInterval(() => {
+        console.log(messaggio);
+    }, inizio);
+
+    setTimeout(() => {
+        clearInterval(print);
+        console.log("Timer fermato");
+    }, fine);
+}
+eseguiEferma("La mia torta è nel forno", 1000, 10000);
 //Scrivi una funzione eseguiEferma che accetta un messaggio, un tempo di avvio e un tempo di stop.Il messaggio deve essere stampato a intervalli regolari, ma si deve fermare dopo il tempo di stop.
